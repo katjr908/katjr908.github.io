@@ -1,0 +1,83 @@
+.button, .King, .Queen, .Rook, .Bishop, .Knight, .Pawn, .Notation, .Special_Moves, .Home_Page {
+  border: 2px solid blue;
+  margin: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 200px;
+  height: 100px;
+  font-size: 20px;
+}
+
+header {
+  font-weight: bold;
+  font-size: large;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+main {
+  font-size: medium;
+  font-family: Arial, sans-serif;
+}
+
+footer {
+  font-family: Arial, sans-serif;
+  font-size: small;
+}
+
+div p {
+  color: green;
+}
+
+div ul {
+  color: blue;
+  font-size: medium;
+}
+
+main p::first-letter {
+  font-size: x-large;
+  font-weight: bold;
+  color: lighten;
+}
+
+.King {
+  background-color: black;
+  color: white;
+}
+
+.Queen {
+  background-color: magenta;
+}
+
+.Rook {
+  background-color: blue;
+  color: white;
+}
+
+.Bishop {
+  background-color: crimson;
+  color: white;
+}
+
+.Knight {
+  background-color: yellow;
+}
+
+.Pawn {
+  background-color: silver;
+}
+
+.Notation {
+  background-color: green;
+  color: white;
+}
+
+.Special_Moves {
+  background-color: orange;
+}
+
+@media (max-width: 500px) {
+  p {
+    font-size: small;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
