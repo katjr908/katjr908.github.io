@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Webpage pg. 8</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link href="styles.css" rel="stylesheet">
+        <style>
+            thead > tr{
+                color: blue;
+            }
+            tbody > tr{
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            Chess Notation
+        </header>
+        <main>
+            <p>
+                Notation is very important in chess; it is how you learn from your mistakes. Using notation you can replay through your games.
+            </p>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Row</th>
+                        <th>Piece</th>
+                        <th>Piece Symbol</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Knight</td>
+                        <td>N</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Bishop</td>
+                        <td>B</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Queen</td>
+                        <td>Q</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>King</td>
+                        <td>K</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Rook</td>
+                        <td>R</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Pawn</td>
+                        <td>N/A</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>Captures</td>
+                        <td>x</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>Check</td>
+                        <td>+</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>Checkmate</td>
+                        <td>#</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>Castle Kingside</td>
+                        <td>0-0</td>
+                    </tr>
+                    <tr>
+                        <td>11</td>
+                        <td>Castle Queenside</td>
+                        <td>0-0-0</td>
+                    </tr>    
+                </tbody>
+            </table>
+            <p>
+                For notation piece symbols, you'll notice that most of them is the first letter of the actual piece name. The two exceptions are the knight and the pawn. For the pawn, you would just write the square it lands on. For the knight, you use the N because the K is used for the King. For more on castling visit the <a href="Special_moves.html"> Special Moves</a> page.
+            </p>
+        </main>
+        <footer>
+            <!--<p>
+                To learn about how the King moves, click <a href="King.html"> here</a>
+            </p>
+            <p>
+                To learn about how the Queen moves, click <a href="Queen.html"> here</a>
+            </p>
+            <p>
+                To learn about how the Rook moves, click <a href="Rook.html"> here</a>
+            </p>
+            <p>
+            To learn about how the Bishop moves, click <a href="Bishop.html"> here</a>
+            </p>
+            <p>
+                To learn about how the Knight moves, click <a href="Knight.html"> here</a>
+            </p>
+            <p>
+                To learn about how a pawn moves, click <a href="Pawn.html"> here</a>
+            </p>
+            <p>
+                To learn about special moves, click <a href="Special_moves.html"> here</a>
+            </p>
+            <p>
+                To go back to the main page, click <a href="index.html"> here</a>
+            </p>-->
+            <button class="King" onclick="location.href='King.html'">King</button>
+            <button class="Queen"onclick="location.href='Queen.html'">Queen</button>
+            <button class="Rook" onclick="location.href='Rook.html'">Rook</button>
+            <button class="Bishop" onclick="location.href='Bishop.html'">Bishop</button>
+            <button class="Knight" onclick="location.href='Knight.html'">Knight</button>
+            <button class="Pawn" onclick="location.href='Pawn.html'">Pawn</button>
+            <button class="Special_Moves" onclick="location.href='Special_moves.html'">Special Moves</button>
+            <button class="Home_Page" onclick="location.href='index.html'">Home Page</button>
+        </footer>
+    </body>
+</html>

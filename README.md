@@ -1,1 +1,1 @@
-# katjr908
+My project is made for people that want to learn chess. It shows the basics of chess and the important parts that beginners should know. In each file shows the pieces and its moves along with notation and the special moves.

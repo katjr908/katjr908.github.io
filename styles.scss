@@ -1,0 +1,84 @@
+$font: Arial, sans-serif;
+.button{
+    border: 2px solid blue;
+    margin: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 200px;
+    height: 100px;
+    font-size: 20px;
+}
+
+header{
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+    font-family: $font;
+}
+main{
+    font-size: medium;
+    font-family: $font;
+}
+footer{
+    font-family: $font;
+    font-size: small;
+}
+div{
+    p{
+        color: green;
+    }
+    ul{
+        color: blue;
+        font-size: medium;
+    }
+}
+main{
+    p::first-letter{
+        font-size: x-large;
+        font-weight: bold;
+        color: lighten;
+    }
+}
+.King{
+    @extend .button;
+    background-color: black;
+    color: white;
+}
+.Queen{
+    @extend .button;
+    background-color:magenta;
+}
+.Rook{
+    @extend .button;
+    background-color: blue;
+    color: white;
+}
+.Bishop{
+    @extend .button;
+    background-color: crimson;
+    color: white;
+}
+.Knight{
+    @extend .button;
+    background-color: yellow;
+}
+.Pawn{
+    @extend .button;
+    background-color: silver;
+}
+.Notation{
+    @extend .button;
+    background-color: green;
+    color: white;
+}
+.Special_Moves{
+    @extend .button;
+    background-color: orange;
+}
+.Home_Page{
+    @extend .button;
+}
+@media (max-width: 500px){
+    p {
+        font-size: small;
+    }
+}
