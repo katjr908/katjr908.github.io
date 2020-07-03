@@ -1,4 +1,4 @@
-.button, .King, .Queen, .Rook, .Bishop, .Knight, .Pawn, .Notation, .Special_Moves, .Home_Page {
+.button, .King, .Queen, .Rook, .Bishop, .Knight, .Pawn, .Notation, .Special_Moves, .Home_Page, .Piece_value {
   border: 2px solid blue;
   margin: 15px;
   font-family: Arial, Helvetica, sans-serif;
@@ -79,5 +79,9 @@ main p::first-letter {
   p {
     font-size: small;
   }
+}
+
+.Piece_value {
+  background-color: steelblue;
 }
 /*# sourceMappingURL=styles.css.map */
